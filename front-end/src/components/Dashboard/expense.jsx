@@ -19,7 +19,7 @@ function Expense() {
         rows="4"
       ></textarea>
 
-      <button>Add</button>
+      <button>Add Expense</button>
     </div>
   );
 }
