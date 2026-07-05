@@ -1,0 +1,44 @@
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+footer p {
+  max-width: 900px;
+  margin: 0 auto 15px;
+  line-height: 1.6;
+  font-size: 0.95rem;
+  color: #d1d1d1;
+}
+
+footer a {
+  color: #4caf50;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 0.95rem;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #66bb6a;
+  text-decoration: underline;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  footer {
+    padding: 30px 15px;
+  }
+
+  footer p {
+    font-size: 0.9rem;
+  }
+
+  footer a {
+    display: block;
+    margin: 10px 0;
+  }
+}

@@ -1,0 +1,16 @@
+.Nav {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #4caf50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.Nav h1 {
+  font-size: 1.2rem;
+  color: white;
+  margin: 0;
+  font-weight: 600;
+}
